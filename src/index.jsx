@@ -1,7 +1,7 @@
 // import createElement from "./vdom/createElements";
 import render from "./vdom/render";
 
-const vdom = (
+const App = () => (
   <div id="app">
     <h1>Hello, Virtual DOM with JSX!</h1>
     <p>This is JSX syntax working with our custom virtual DOM.</p>
@@ -9,4 +9,4 @@ const vdom = (
 );
 
 const container = document.getElementById("root");
-render(vdom, container);
+render(<App />, container);
