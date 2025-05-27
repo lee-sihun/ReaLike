@@ -1,4 +1,4 @@
-import createElement from "./vdom/createElements";
+// import createElement from "./vdom/createElements";
 import render from "./vdom/render";
 
 const vdom = (
